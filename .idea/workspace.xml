@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="922ef6ff-dde0-4e5e-b623-651b841bb5ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/licmgmt/graph.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/licmgmt/matplot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/licmgmt/maxlic3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/licmgmt/.idea/licmgmt.iml" afterPath="$PROJECT_DIR$/licmgmt/.idea/licmgmt.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/licmgmt/maxlic2.py" afterPath="$PROJECT_DIR$/licmgmt/maxlic2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pydev.iml" afterPath="$PROJECT_DIR$/.idea/pydev.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/licmgmt/.idea/workspace.xml" afterPath="$PROJECT_DIR$/licmgmt/.idea/workspace.xml" />
     </list>
     <ignored path="pydev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="maxlic2.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file:///media/data/workarea/python/pydev/licmgmt/maxlic2.py">
+      <file leaf-file-name="matplot.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/licmgmt/matplot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42206654" vertical-offset="1439" max-vertical-offset="2055">
-              <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+            <state vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="195">
+              <caret line="4" column="4" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maxlic2.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/licmgmt/maxlic2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1905">
+              <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
               <folding>
                 <element signature="e#23#48#0" expanded="true" />
               </folding>
@@ -39,21 +52,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="numeric.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///usr/share/pyshared/numpy/core/numeric.py">
+      <file leaf-file-name="maxlic3.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/licmgmt/maxlic3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3251" max-vertical-offset="36375">
-              <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.28639618" vertical-offset="1545" max-vertical-offset="2130">
+              <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+              <folding>
+                <element signature="e#23#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matplot.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/licmgmt/matplot.py">
+      <file leaf-file-name="maxlic.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/licmgmt/maxlic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <caret line="4" column="4" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1230">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -74,16 +89,17 @@
       <list>
         <option value="$PROJECT_DIR$/licmgmt/graph.py" />
         <option value="$PROJECT_DIR$/licmgmt/matplot.py" />
-        <option value="$PROJECT_DIR$/licmgmt/maxlic2.py" />
         <option value="/media/data/workarea/python/pydev/licmgmt/maxlic2.py" />
+        <option value="$PROJECT_DIR$/licmgmt/maxlic2.py" />
+        <option value="$PROJECT_DIR$/licmgmt/maxlic3.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="469" />
-    <option name="y" value="32" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1301" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -128,10 +144,6 @@
               <option name="myItemId" value="pydev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="licmgmt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -140,6 +152,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pydev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="licmgmt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -162,7 +178,12 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.maxlic2">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/licmgmt" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.maxlic3">
     <configuration default="false" name="maxlic2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,6 +235,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pydev" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/licmgmt/matplot.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="maxlic3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/licmgmt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pydev" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/licmgmt/maxlic3.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -340,16 +379,18 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.maxlic2" />
       <item index="1" class="java.lang.String" itemvalue="Python.graph" />
       <item index="2" class="java.lang.String" itemvalue="Python.matplot" />
+      <item index="3" class="java.lang.String" itemvalue="Python.maxlic3" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.maxlic2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.matplot" />
-        <item index="2" class="java.lang.String" itemvalue="Python.graph" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.maxlic3" />
+        <item index="1" class="java.lang.String" itemvalue="Python.maxlic2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.matplot" />
+        <item index="3" class="java.lang.String" itemvalue="Python.graph" />
       </list>
     </recent_temporary>
   </component>
@@ -366,18 +407,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="469" y="32" width="1400" height="1000" extended-state="0" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2490392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -426,23 +467,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/licmgmt/maxlic2.py">
+    <entry file="file://$PROJECT_DIR$/licmgmt/matplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding>
-            <element signature="e#23#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/licmgmt/graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -460,9 +489,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/licmgmt/maxlic2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding>
-            <element signature="e#23#49#0" expanded="true" />
+            <element signature="e#23#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/licmgmt/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -480,9 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="315">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#23#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -508,19 +548,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/licmgmt/matplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+        <state vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="195">
           <caret line="4" column="4" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/licmgmt/maxlic2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7716535" vertical-offset="315" max-vertical-offset="1845">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,24 +558,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44291338" vertical-offset="0" max-vertical-offset="508">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/licmgmt/maxlic2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1905">
+          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
           <folding>
-            <element signature="e#23#49#0" expanded="true" />
+            <element signature="e#23#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/share/pyshared/numpy/core/numeric.py">
+    <entry file="file://$PROJECT_DIR$/licmgmt/maxlic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3251" max-vertical-offset="36375">
-          <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1230">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///media/data/workarea/python/pydev/licmgmt/maxlic2.py">
+    <entry file="file://$PROJECT_DIR$/licmgmt/maxlic3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42206654" vertical-offset="1439" max-vertical-offset="2055">
-          <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.28639618" vertical-offset="1545" max-vertical-offset="2130">
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding>
             <element signature="e#23#48#0" expanded="true" />
           </folding>

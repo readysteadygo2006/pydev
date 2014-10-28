@@ -2,6 +2,8 @@ __author__ = 'pgrant'
 
 from copy import deepcopy
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import datetime as dt
 
 dateSet = 0
 periodCountTable = {}
@@ -29,24 +31,23 @@ for line in open('/home/pgrant/workarea/python/arm-20140715-095116.log'):
             lastDate  = tokenList[-1]
             xAxis = plotDict['xAxis']
             xAxis[mapIndex] = tokenList[-1]
- #           print(tokenList[-1], " , ")
             for licName in maxCountTable.keys():
                 if licName not in plotDict:
                     plotDict[licName] = {}
             for licName in maxCountTable.keys():
-#                print(licName, ", ", maxCountTable[licName], ", ")
                 plotDict[licName][mapIndex] = maxCountTable[licName]
-#            print("\n")
-#            print(tokenList[-1], ", ")
             for licName in maxDeniedCountTable.keys():
                 deniedLicName = 'denied' + ':' + licName
                 if deniedLicName not in plotDict:
                     plotDict[deniedLicName] = {}
             for licName in maxDeniedCountTable.keys():
                 deniedLicName = 'denied' + ':' + licName
-#               print(deniedLicName, ", ", maxDeniedCountTable[licName], ", ")
                 plotDict[deniedLicName][mapIndex] = maxDeniedCountTable[licName]
             mapIndex = mapIndex + 1
+            for licName in maxCountTable:
+                maxCountTable[licName] = 0
+            for licName in maxDeniedCountTable:
+                maxDeniedCountTable[licName] = 0
     if dateSet == 1:
         if "OUT:" in tokenList:
             if  "OUT:" in tokenList[3]:
@@ -102,20 +103,34 @@ for line in open('/home/pgrant/workarea/python/arm-20140715-095116.log'):
 
 for licName in plotDict:
     plotList[licName] = []
+dateSkip = 0
+
 for indexCount in range(0, mapIndex):
+    dateSkip = dateSkip + 1
     for licName in plotDict:
-        if indexCount in plotDict[licName]:
-            plotList[licName].append(plotDict[licName][indexCount])
+        if licName == 'xAxis' and dateSkip < 7:
+            dateSkip = 0
         else:
-            plotList[licName].append(0)
+            if indexCount in plotDict[licName]:
+                plotList[licName].append(plotDict[licName][indexCount])
+            else:
+                plotList[licName].append(0)
+
+fig = plt.figure()
+ax = fig.add_subplot(1,1,1)
 
 for licName in plotList:
     if licName !=  'xAxis' and 'denied' not in licName:
-        plt.plot(plotList[licName], label=licName)
+        ax.plot(plotList[licName], label=licName)
 
 #plt.legend(bbox_to_anchor=(0., 1, 0, 1), loc=2, ncol=2, mode="expand", borderaxespad=0.)
-plt.legend(bbox_to_anchor=(1, 1), loc=1, borderaxespad=0.)
+#plt.legend(bbox_to_anchor=(1, 1), loc=1, borderaxespad=0.)
 #plt.legend(loc='upper center', shadow=True)
+
+ax.set_xticks(range(len(plotList['xAxis'])))  # put the tick markers under your bars
+ax.xaxis.set_ticklabels(plotList['xAxis'])
+plt.xticks(rotation='vertical')
+
 plt.show()
 
 
